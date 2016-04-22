@@ -29,7 +29,7 @@ DATABASES = {
 ```
 python manage.py runserver
 ```
-Open browser and go to 
+3. Open browser and go to 
 ```
 http://127.0.0.1:8000/graphiql?
 ```

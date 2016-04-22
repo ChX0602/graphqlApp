@@ -12,7 +12,7 @@ pip install django-filter
 ```
 ## Setup
 
-1. In teledb/teledb/setting.py, change
+In teledb/teledb/setting.py, change
 
 ```
 DATABASES = {
@@ -25,11 +25,11 @@ DATABASES = {
 }
 ```
 
-2. On project level (same as crunchbase, teledb, manage.py), run
+On project level (same as crunchbase, teledb, manage.py), run
 ```
 python manage.py runserver
 ```
-3. Open browser and go to 
+Open browser and go to 
 ```
 http://127.0.0.1:8000/graphiql?
 ```
